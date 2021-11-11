@@ -6,7 +6,7 @@ public class ContagemPOO {
          Contagem nova = new Contagem();
     
     
-    nova.Contar(5);
+    nova.contar(5, 15, 10);
     }
   
     

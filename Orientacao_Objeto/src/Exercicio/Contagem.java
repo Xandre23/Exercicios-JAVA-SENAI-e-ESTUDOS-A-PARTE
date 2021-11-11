@@ -1,35 +1,32 @@
 package Exercicio;
-
-
-
 public class Contagem {
-    
-    public void Contar(){
-           int numero1 = 1;
-           while(numero1 <= 10){
-                System.out.println(numero1++);
-                    
+        public  void contar(){
+            for(int i = 1; i <= 10; i++){
+                System.out.println(i);
+            }
         }
-        
+
+        public  void contar(int fim){
+            for(int i = 1; i <= fim; i++){
+                System.out.println(i);
+            }
+        }
+
+        public  void contar(int inicio, int fim){
+            for(int i = inicio; i <= fim; i++){
+                System.out.println(i);
+            }
+        }
+
+        public  void contar(int inicio, int fim, int pausa){
+            for(int i = inicio; i <= fim; i++){
+                System.out.print(i + " ");
+              
+            }
     }
-      public void Contar(int fim){
-         
-           for (int contar = 1; fim<20; contar++) {
-               System.out.println(contar);
-            
-        }
-        
-    }
-      public void Contar(int inicio, int fim){
-          for (inicio = 0; fim<8; inicio++) {
-            
-        }
-    }
-      public void Contar(int inicio, int fim, int pausa){
-             for (inicio = 0; fim<8; inicio++) {
-            
-        }
-        
-    } 
-    
+
+
+
 }
+    
+

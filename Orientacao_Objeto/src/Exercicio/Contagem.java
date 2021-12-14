@@ -1,10 +1,12 @@
 package Exercicio;
+ //Sobrecarga dos metodos
 public class Contagem {
         public  void contar(){
             for(int i = 1; i <= 10; i++){
                 System.out.println(i);
             }
         }
+       
 
         public  void contar(int fim){
             for(int i = 1; i <= fim; i++){
